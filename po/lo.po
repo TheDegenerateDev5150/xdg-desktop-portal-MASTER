@@ -1,0 +1,334 @@
+# Lao translation for xdg-desktop-portal-gnome.
+# Copyright (C) 2025 xdg-desktop-portal-gnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xdg-desktop-portal-gnome package.
+# bone NI <bounkirdni@gmail.com>,  2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xdg-desktop-portal-gnome main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/xdg-desktop-portal-"
+"gnome/issues/\n"
+"POT-Creation-Date: 2025-09-18 21:23+0000\n"
+"PO-Revision-Date: 2025-09-18 21:23+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Lao <lo@li.org>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/xdg-desktop-portal-gnome.desktop.in.in:3
+msgid "Portal"
+msgstr "ພໍທໍ"
+
+#: src/access.c:203
+msgid "Deny"
+msgstr "ປະຕິເສດ"
+
+#: src/access.c:206
+msgid "Allow"
+msgstr "ອະນຸຍາດ"
+
+#: src/accountdialog.c:159
+msgid "Select an Image"
+msgstr "ເລືອກຮູບ"
+
+#: src/accountdialog.c:162
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#: src/accountdialog.c:163
+msgid "Select"
+msgstr "ເລືອກ"
+
+#: src/accountdialog.c:164
+msgid "Clear"
+msgstr "ລຶບ"
+
+#: src/accountdialog.c:171
+msgid "Images"
+msgstr "ຮູບພາບ"
+
+#: src/accountdialog.c:233
+#, c-format
+msgid "Share your personal information with %1$s? %2$s"
+msgstr "ແບ່ງປັນຂໍ້ມູນສ່ວນຕົວຂອງທ່ານໃຫ້ກັບ %1$s ບໍ? %2$s"
+
+#: src/accountdialog.c:239
+#, c-format
+msgid "Share your personal information with the requesting app? %s"
+msgstr "ແບ່ງປັນຂໍ້ມູນສ່ວນຕົວຂອງທ່ານໃຫ້ກັບແອັບທີ່ຮ້ອງຂໍບໍ? %s"
+
+#: src/accountdialog.ui:4
+msgid "Share Details"
+msgstr "ແບ່ງປັນລາຍລະອຽດ"
+
+#: src/accountdialog.ui:29 src/appchooserdialog.ui:17
+#: src/dynamic-launcher.c:258 src/inputcapturedialog.ui:13
+#: src/remotedesktopdialog.ui:28 src/screencastdialog.ui:31
+#: src/screenshotdialog.ui:29 src/wallpaperdialog.ui:28
+msgid "_Cancel"
+msgstr "_ຍົກເລີກ"
+
+#: src/accountdialog.ui:36 src/inputcapturedialog.ui:21
+#: src/remotedesktopdialog.ui:36 src/screencastdialog.ui:39
+#: src/screenshotdialog.ui:52
+msgid "_Share"
+msgstr "_ແບ່ງປັນ"
+
+#: src/accountdialog.ui:89
+msgid "Change Avatar"
+msgstr "ປ່ຽນຮູບປະຈຳຕົວ"
+
+#: src/accountdialog.ui:112
+msgid "Name"
+msgstr "ຊື່"
+
+#: src/accountdialog.ui:118
+msgid "Username"
+msgstr "ຊື່ຜູ້ໃຊ້"
+
+#: src/appchooserdialog.c:176
+msgid "_OK"
+msgstr "_ຕົກລົງ"
+
+#: src/appchooserdialog.c:195
+msgid "Failed to start Software"
+msgstr "ເປີດຊັອຟແວບໍ່ສຳເລັດ"
+
+#: src/appchooserdialog.c:348
+#, c-format
+msgid "Choose an app to open the file “%s”"
+msgstr "ເລືອກແອັບເພື່ອເປີດໄຟລ໌ “%s”"
+
+#: src/appchooserdialog.c:353
+msgid "Choose an app"
+msgstr "ເລືອກແອັບ"
+
+#: src/appchooserdialog.c:370
+#, c-format
+msgid ""
+"No apps installed that can open “%s”. You can find more apps in Software"
+msgstr ""
+"ບໍ່ມີແອັບທີ່ຕິດຕັ້ງໄວ້ສາມາດເປີດ “%s” ໄດ້. ທ່ານສາມາດຊອກຫາແອັບເພີ່ມເຕີມໄດ້ໃນ "
+"ຊັອຟແວ"
+
+#: src/appchooserdialog.c:375
+msgid "No suitable app installed. You can find more apps in Software."
+msgstr "ບໍ່ມີແອັບທີ່ເໝາະສົມຕິດຕັ້ງໄວ້. ທ່ານສາມາດຊອກຫາແອັບເພີ່ມເຕີມໄດ້ໃນ ຊັອຟແວ."
+
+#: src/appchooserdialog.ui:5
+msgid "Open With…"
+msgstr "ເປີດດ້ວຍ…"
+
+#: src/appchooserdialog.ui:25
+msgid "_Open"
+msgstr "_ເປີດ"
+
+#: src/appchooserdialog.ui:68
+msgid "No Apps Available"
+msgstr "ບໍ່ມີແອັບ"
+
+#: src/appchooserdialog.ui:76
+msgid "_Find More in Software"
+msgstr "_ຊອກຫາເພີ່ມເຕີມໃນ ຊັອຟແວ"
+
+#: src/dynamic-launcher.c:250
+msgid "Create Web App"
+msgstr "ສ້າງແອັບເວັບ"
+
+#: src/dynamic-launcher.c:252
+msgid "Create App"
+msgstr "ສ້າງແອັບ"
+
+#: src/dynamic-launcher.c:260
+msgid "C_reate"
+msgstr "ສ້_າງ"
+
+#. Translators: This string refers to a key combination
+#: src/globalshortcuts.c:352
+#, c-format
+msgid "Press %s"
+msgstr "ກົດ %s"
+
+#. Translators: This string refers to 2 key combinations
+#: src/globalshortcuts.c:361
+#, c-format
+msgid "Press %s or %s"
+msgstr "ກົດ %s ຫຼື %s"
+
+#: src/globalshortcuts.c:468
+msgid "Undocumented shortcut"
+msgstr "ທາງລັດທີ່ບໍ່ມີເອກະສານ"
+
+#: src/inputcapturedialog.c:105
+#, c-format
+msgid "The application %s wants to capture input events"
+msgstr "ແອັບພລິເຄຊັນ %s ຕ້ອງການບັນທຶກເຫດການທີ່ປ້ອນຂໍ້ມູນ"
+
+#: src/inputcapturedialog.c:110
+msgid "An application wants to capture input events"
+msgstr "ມີແອັບພລິເຄຊັນຕ້ອງການບັນທຶກເຫດການທີ່ປ້ອນຂໍ້ມູນ"
+
+#: src/inputcapturedialog.ui:7
+msgid "Capture Input"
+msgstr "ບັນທຶກການປ້ອນຂໍ້ມູນ"
+
+#: src/inputcapturedialog.ui:68
+msgid "Allow Remote _Input Capturing"
+msgstr "ອະນຸຍາດການບັນທຶກການ_ປ້ອນຂໍ້ມູນໄລຍະໄກ"
+
+#: src/remotedesktopdialog.ui:7
+msgid "Remote Desktop"
+msgstr "ເດັສທັອບໄລຍະໄກ"
+
+#: src/remotedesktopdialog.ui:70
+msgid "_Remember This Selection"
+msgstr "_ຈື່ການເລືອກນີ້ໄວ້"
+
+#: src/remotedesktopdialog.ui:85
+msgid "Allow Remote _Interaction"
+msgstr "ອະນຸຍາດການໂຕ້ຕອບໄລຍະໄກ"
+
+#: src/remotedesktopdialog.ui:93
+msgid "Allow _Clipboard Access"
+msgstr "ອະນຸຍາດການເຂົ້າເຖິງຄລິບບອດ"
+
+#: src/screencastdialog.ui:5
+msgid "Share Screen"
+msgstr "ແບ່ງປັນໜ້າຈໍ"
+
+#: src/screencastwidget.c:292
+msgid "Virtual Monitor"
+msgstr "ຈໍສະເໝືອນ"
+
+#: src/screencastwidget.c:636
+#, c-format
+msgid "%s wants to share your screen. Choose what you'd like to share."
+msgstr "%s ຕ້ອງການແບ່ງປັນໜ້າຈໍຂອງທ່ານ. ເລືອກສິ່ງທີ່ທ່ານຕ້ອງການແບ່ງປັນ."
+
+#: src/screencastwidget.c:641
+msgid "An app wants to share your screen. Choose what you'd like to share."
+msgstr "ມີແອັບຕ້ອງການແບ່ງປັນໜ້າຈໍຂອງທ່ານ. ເລືອກສິ່ງທີ່ທ່ານຕ້ອງການແບ່ງປັນ."
+
+#: src/screencastwidget.ui:17
+msgid "_Remember this selection"
+msgstr "_ຈື່ການເລືອກນີ້ໄວ້"
+
+#: src/screencastwidget.ui:46
+msgid "_Window"
+msgstr "_ໜ້າຕ່າງ"
+
+#: src/screencastwidget.ui:66
+msgid "_Display"
+msgstr "_ຈໍສະແດງຜົນ"
+
+#: src/screenshotdialog.c:432
+#, c-format
+msgid "Share this screenshot with %s?"
+msgstr "ແບ່ງປັນຮູບໜ້າຈໍນີ້ໃຫ້ກັບ %s ບໍ?"
+
+#: src/screenshotdialog.c:436
+msgid "Share this screenshot with the requesting app?"
+msgstr "ແບ່ງປັນຮູບໜ້າຈໍນີ້ໃຫ້ກັບແອັບທີ່ຮ້ອງຂໍບໍ?"
+
+#: src/screenshotdialog.ui:9
+msgid "Screenshot"
+msgstr "ຮູບໜ້າຈໍ"
+
+#: src/screenshotdialog.ui:45
+msgid "_Options…"
+msgstr "_ໂຕເລືອກ…"
+
+#: src/screenshotdialog.ui:70
+msgid "Take _Screenshot"
+msgstr "ຖ່າຍ_ຮູບໜ້າຈໍ"
+
+#: src/screenshotdialog.ui:131
+msgid "Take Screenshot"
+msgstr "ຖ່າຍຮູບໜ້າຈໍ"
+
+#: src/screenshotdialog.ui:141
+msgid "Grab Whole Sc_reen"
+msgstr "ຖ່າຍທັງ_ໜ້າຈໍ"
+
+#: src/screenshotdialog.ui:151
+msgid "Grab Current _Window"
+msgstr "ຖ່າຍ_ໜ້າຕ່າງປັດຈຸບັນ"
+
+#: src/screenshotdialog.ui:161
+msgid "Select _Area to Grab"
+msgstr "ເລືອກ_ພື້ນທີ່ເພື່ອຖ່າຍ"
+
+#: src/screenshotdialog.ui:173
+msgid "Grab after a _delay of"
+msgstr "ຖ່າຍຫຼັງຈາກ_ຊັກຊ້າ"
+
+#: src/screenshotdialog.ui:184
+msgid "seconds"
+msgstr "ວິນາທີ"
+
+#: src/screenshotdialog.ui:193
+msgid "Effects"
+msgstr "ເອັບເຟັກ"
+
+#: src/screenshotdialog.ui:203
+msgid "Include _Pointer"
+msgstr "ລວມ_ໂຕຊີ້"
+
+#: src/screenshotdialog.ui:211
+msgid "Include Window _Border"
+msgstr "ລວມ_ຂອບໜ້າຕ່າງ"
+
+#: src/settings.c:335
+msgid "Requested setting not found"
+msgstr "ບໍ່ພົບການຕັ້ງຄ່າທີ່ຮ້ອງຂໍ"
+
+#: src/usbdialog.c:102
+msgid "Serial Number"
+msgstr "ເລກປະຈຳເຄື່ອງ"
+
+#: src/usbdialog.c:211
+#, c-format
+msgid "%s wants to access the following USB devices"
+msgstr "%s ຕ້ອງການເຂົ້າເຖິງອຸປະກອນ USB ຕໍ່ໄປນີ້"
+
+#: src/usbdialog.c:216
+msgid "An app wants to access the following USB devices"
+msgstr "ມີແອັບຕ້ອງການເຂົ້າເຖິງອຸປະກອນ USB ຕໍ່ໄປນີ້"
+
+#: src/usbdialog.c:276
+msgid "Unknown device"
+msgstr "ອຸປະກອນບໍ່ຮູ້ຈັກ"
+
+#: src/usbdialog.c:277
+msgid "Unknown vendor"
+msgstr "ຜູ້ຜະລິດບໍ່ຮູ້ຈັກ"
+
+#: src/usbdialog.ui:8
+msgid "Device Access"
+msgstr "ການເຂົ້າເຖິງອຸປະກອນ"
+
+#: src/usbdialog.ui:31
+msgid "_Deny"
+msgstr "_ປະຕິເສດ"
+
+#: src/usbdialog.ui:40
+msgid "_Allow"
+msgstr "_ອະນຸຍາດ"
+
+#: src/usbdialog.ui:90
+msgid "Failed to display USB device"
+msgstr "ສະແດງອຸປະກອນ USB ບໍ່ສຳເລັດ"
+
+#: src/wallpaperdialog.ui:8
+msgid "Set Background"
+msgstr "ຕັ້ງພື້ນຫຼັງ"
+
+#: src/wallpaperdialog.ui:35
+msgid "_Set"
+msgstr "_ຕັ້ງ"
+
+#: src/wallpaperdialog.ui:67
+msgid "Failed to load image file"
+msgstr "ໂຫຼດໄຟລ໌ຮູບບໍ່ສຳເລັດ"
